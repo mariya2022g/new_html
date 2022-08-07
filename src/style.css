@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+}
+
+h3 {
+    color: crimson;
+}
+
+th {
+    color: darkred;
+}
+
+a {
+    front-size: 16px;
+    color: blueviolet;
+    front-weight: bold;
+}
+a:hover {
+    front-size: 16px;
+    color: aqua;
+    front-weight: bold;
+}
+
+button {
+    color: blue;
+    background: darkgoldenrod;
+    text-align: center;
+}
+
+p {
+    color: darkblue;
+}
+
+span {
+    color: dimgray;
+    font-style: italic;
+}
+
