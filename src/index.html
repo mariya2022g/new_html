@@ -14,32 +14,42 @@
     <p>Комментарий<br/>
         <textarea name="comment"></textarea></p>
     <p>
-        <input type="checkbox" name="town" value="rad1"> Москва<Br>
-        <input type="checkbox" name="town" value="rad2"> Казань<Br>
-        <input type="checkbox" name="town" value="rad3"> Новосибирск
+        <label>
+            <input type="checkbox" value="1" name="town">Москва</label>
+        <br>
+        <label>
+            <input type="checkbox" value="2" name="town">Казань</label>
+        <br>
+        <label>
+            <input type="checkbox" value="3" name="town">Новосибирск</label>
     </p>
     <p>
-        <input type="radio" name="town" value="rad1"> Москва<Br>
-        <input type="radio" name="town" value="rad2"> Казань<Br>
-        <input type="radio" name="town" value="rad3"> Новосибирск
+        <label>
+            <input type="radio" value="1" name="citizenship">Русский</label>
+        <br>
+        <label>
+            <input type="radio"  value="2" name="citizenship">Казах</label>
+        <br>
+        <label>
+            <input type="radio"  value="3" name="citizenship">Немец</label>
     </p>
     <p>
-        <select size="3" name="country">
-        <option disabled>Выберите страну</option>
-        <option value="Индия">Индия</option>
-        <option selected value="Китай">Китай</option>
-        <option value="Россия">Россия</option>
+        <select size="3" name="continent">
+            <option disabled>Выберите континент</option>
+            <option value="Европа">Европа</option>
+            <option selected value="Азия">Азия</option>
+            <option value="Северная Америка">Северная Америка</option>
         </select>
     </p>
     <p>
         <select size="3" multiple name="country">
-        <option disabled>Выберите страну</option>
-        <option value="Индия">Индия</option>
-        <option selected value="Китай">Китай</option>
-        <option value="Россия">Россия</option>
+            <option disabled>Выберите страну</option>
+            <option value="Индия">Индия</option>
+            <option selected value="Китай">Китай</option>
+            <option value="Россия">Россия</option>
         </select>
     </p>
-    <p><button>OK</button></p>
+    <p><button type="submit">OK</button></p>
 </form>
 </body>
 </html>
